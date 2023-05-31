@@ -11,6 +11,7 @@ To develop this application we are using:
 - [Postman (v10.14.6)] (https://www.postman.com)
 - [Blade (v1.21)] (https://laravel.com/docs/10.x/blade)
 - [Tailwind CSS (v3.3.2)](https://tailwindui.com/documentation)
+- [Scribe (v4.21)] (https://scribe.knuckles.wtf/laravel/)
 
 ## Table of Contents
 
@@ -33,13 +34,14 @@ Or "How to Install and Run the Project."
 
 ## How to use
 
-How to use the Project. This includes details of users.
+Project documentation (http://localhost/docs#introduction)
 
 
 ## Credits
 
 Adrian Gould (https://github.com/AdyGCode/ICT50120-SaaS-Library)
 Adrian Gould (https://blackboard.northmetrotafe.wa.edu.au/webapps/collab-ultra/tool/collabultra?course_id=_28977_1&mode=view)
+Adrian Gould (https://www.diigo.com/profile/ady_gould)
 
 ### Contributing
 
