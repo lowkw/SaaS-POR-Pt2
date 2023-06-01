@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use App\Models\Author;
 use App\Models\Book;
+use App\Models\AuthorBook;
 use Symfony\Component\Console\Helper\ProgressBar;
 use Illuminate\Database\Seeder;
 use Symfony\Component\Console\Output\ConsoleOutput;

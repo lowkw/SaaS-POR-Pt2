@@ -1,7 +1,11 @@
 <?php
 
+use App\Http\Controllers\API\GenreAPIController;
+use App\Http\Controllers\API\PublisherAPIController;
+use App\Http\Controllers\API\UserAPIController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\API;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,7 +18,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::apiResource('/users', \App\Http\Controllers\API\UserAPIController::class);
+Route::apiResource('/users', UserAPIController::class);
+Route::apiResource('/publishers', PublisherAPIController::class);
+Route::apiResource('/genres', GenreAPIController::class);
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
