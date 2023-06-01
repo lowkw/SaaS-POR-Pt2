@@ -25,17 +25,28 @@ To develop this application we are using:
 
 ## Requirements
 
-Provide a step-by-step description of how to get the development 
-environment set and running.
+- Docker (https://www.docker.com/)
+- PhpStorm or similar IDE (https://www.jetbrains.com/toolbox-app/)
+- Ubuntu or similar Linux OS (https://ubuntu.com/)
 
 ## Installation
 
-Or "How to Install and Run the Project."
+Windows 10/11
+- cd /mnt/c/Users/YOUR_USER_ID/Source/Respos/SaaS
+- curl -s https://laravel.build/SaaS-POR-Pt2?with=mariadb,redis,memcached,meilisearch,selenium,minio,mailhog | bash
+- cd SaaS-POR-Pt2
+- sail up
+- sail composer require laravel/breeze
+- sail artisan breeze:install
+- sail npm install
+- sail npm run dev
 
 ## How to use
 
 Project documentation (http://localhost/docs#introduction)
-
+- User API URL http://localhost/api/users
+- Publisher API URL http://localhost/api/publishers
+- Genre API URL http://localhost/api/genres
 
 ## Credits
 
